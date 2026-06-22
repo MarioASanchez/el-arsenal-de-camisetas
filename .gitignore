@@ -1,0 +1,32 @@
+# Maven
+target/
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credenciales y configuración sensible (NO SUBIR)
+app/src/main/resources/google-drive-service-account.json
+app/src/main/resources/application.properties
+
+# Logs
+*.log
+
+# Directorio temporal
+/tmp/
